@@ -1,5 +1,8 @@
-string: str = 'christian'
+string = 'christian'
+string_invertida = ''
+tamanho_da_string = len(string)
 
-string_ivertida = 
+for i in range(tamanho_da_string):
+    string_invertida += string[tamanho_da_string - 1 - i]
 
-print(string[-1:])
+print(string_invertida)
